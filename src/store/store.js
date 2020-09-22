@@ -4,8 +4,6 @@ import { rootReducers } from "../reducers/rootReducers";
 
 const enviroment = process.env.REACT_APP_ENV
 console.log(enviroment)
-console.log(enviroment)
-
 
 const composeEnhancers = 
 ( enviroment !=='production' &&
