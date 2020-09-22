@@ -1,5 +1,5 @@
 const baseUrl = process.env.REACT_APP_API_URL;
-
+console.log(baseUrl)
 const fetchSinToken = ( endopoint, data, method = 'GET' ) => {
 	const url = `${ baseUrl }${ endopoint }`;
 
